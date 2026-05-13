@@ -1,7 +1,7 @@
 :root{
- --primaria: #0ea5e9;
- --secundaria: #f97316;
- --escuro: #0f172a;
+ --primaria: #e3ea0b;
+ --secundaria: #e8430c;
+ --escuro: #15ed05f8;
  --claro: #ffffff;
  --texto: #334155;
  --sombra: 0 8px 30px rgba(0, 0, 0, 0.2);
@@ -106,8 +106,8 @@ margin-bottom: 30px;
  font-weight: 600;
  transition: 0.3s;
  box-shadow: var(--sombra);
-
 }
+
 .btn hover{
  transform: scale(1.1);
 }
@@ -214,11 +214,11 @@ button{
 
 }
 button:hover{
-background: #026fa6;
+background: #1aa1e4;
 }
-/*===rado pé===*/
+/*=== RADO PÉ ===*/
 footer{
-background: var(--escuro);
+background: var(--secundaria);
 color: var(--claro);
  text-align: center;
  padding: 50px 20px;
@@ -267,4 +267,9 @@ display: flex;
 }
 @media (min-width:768px) and (max-width: 1200px){
 }
+}
+.produtos{
+ box-shadow: var(--sombra);
+ border-radius: var(--redius);
+ width: auto;
 }
