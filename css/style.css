@@ -1,12 +1,26 @@
 :root{
- --primaria: #0670fc;
- --secundaria: #e8430c;
- --escuro: #05537c;
+ --primaria: #06cbfc;
+ --secundaria: #e8c30c;
+ --escuro: #0baaff;
  --claro: #ffffff;
- --texto: #334155;
+ --texto: #4372b4;
  --sombra: 0 8px 30px rgba(0, 0, 0, 0.2);
  --redius: 20px;
 }
+@midia (prefers-color-scheme){
+:root{
+    --primaria: #3b82f6;
+  --secundaria: #ff6b35;
+  --escuro: #0f172a;
+  --claro: #1e293b;
+  --texto: #f1f5f9;
+  --sombra: 0 8px 30px rgba(0, 0, 0, 0.6);
+  --redius: 20px;
+  -
+}
+}
+
+
 
 
 * {
@@ -20,7 +34,7 @@
 body{
  color: var(--texto);
  background: linear-gradient( rgba(255,255,255,0.85),
-  rgba(255,255,255.75),
+  rgba(255,255,255,0.75),
    url("../img/fundo.png"));
   background-attachment: fixed ;
  background-size: 500px;
@@ -272,4 +286,24 @@ display: flex;
  box-shadow: var(--sombra);
  border-radius: var(--redius);
  width: auto;
+}
+Css hiperlink
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.redes-sociais a img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.redes-sociais a img:hover{
+    transform: scale(1.1);
 }

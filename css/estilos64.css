@@ -1,0 +1,17 @@
+*{
+ margin: 0;
+ padding: 0;
+ 
+}
+
+
+.hero{
+margin: 10px;
+padding: 20px 8%;
+
+ flex-direction: column;
+ background: fixed;
+ padding: 28px;
+ border-radius: 20px;
+align-items: center;
+}
