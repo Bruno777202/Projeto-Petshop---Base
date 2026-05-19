@@ -23,3 +23,17 @@ let menu = document.getElementById("menu");
 botaomenu.addEventListener("click", () => {
 menu.classList.toggle("ativo");
 })
+
+const botao = document.getElementById("mododark");
+
+botao.addEventListener("click", () => {
+
+    document.body.classList.toggle("mododark");
+
+    if(document.body.classList.contains("mododark")){
+        botao.textContent = "Modo Light";
+    } else {
+        botao.textContent = "mododark";
+    }
+
+});
