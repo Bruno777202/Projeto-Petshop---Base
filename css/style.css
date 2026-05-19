@@ -1,7 +1,7 @@
 :root{
- --primaria: #e3ea0b;
+ --primaria: #0670fc;
  --secundaria: #e8430c;
- --escuro: #15ed05f8;
+ --escuro: #05537c;
  --claro: #ffffff;
  --texto: #334155;
  --sombra: 0 8px 30px rgba(0, 0, 0, 0.2);
@@ -134,8 +134,8 @@ color: var(--escuro);
  border-radius: var(--redius);
  box-shadow: var(--sombra);
  overflow: hidden;
- backdrop-filter: blur(28px);
- -webkit-backdrop-filter: blur(28px);
+ backdrop-filter: blur(30px);
+ -webkit-backdrop-filter: blur(30px);
  transition: 0.4s;
 }
 .card hover{
